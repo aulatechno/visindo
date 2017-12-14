@@ -1,9 +1,59 @@
 // compileCompressed: ../css/$1.css
-.navigasi {
-  background: #24292e;
 
-  .bg-dark {
-    background: #24292e !important;
+body {
+  background: #f7f7fa;
+}
+
+.navigasi {
+  .navbar-white {
+    .navbar-brand {
+      color: #0a84ff;
+
+      &:focus, &:hover {
+        color: #0a84ff;
+      }
+    }
+
+    .navbar-nav {
+      .nav-link {
+        color: #0a84ff;
+
+        &:focus, &:hover {
+          color: #0a84ff;
+        }
+
+        &.disabled {
+          color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      .show > .nav-link,
+      .active > .nav-link,
+      .nav-link.show,
+      .nav-link.active {
+        color: rgba(0, 0, 0, 0.9);
+      }
+    }
+
+    .navbar-toggler {
+      color: rgba(0, 0, 0, 0.5);
+      border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .navbar-text {
+      color: rgba(0, 0, 0, 0.5);
+      a {
+        color: rgba(0, 0, 0, 0.9);
+
+        &:focus, &:hover {
+          color: #0a84ff;
+        }
+      }
+    }
   }
 }
 
@@ -11,6 +61,10 @@
   .item {
     margin-top: 10px;
     margin-bottom: 10px;
+
+    img {
+      box-shadow: 2px 3px 8px 0 rgba(0,0,0,.2);
+    }
   }
 }
 
