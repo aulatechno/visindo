@@ -1,5 +1,11 @@
 // compileCompressed: ../css/$1.css
+.navigasi {
+  background: #24292e;
 
+  .bg-dark {
+    background: #24292e !important;
+  }
+}
 
 
 //@import "utilities";
