@@ -4,6 +4,9 @@ body {
   background: #f7f7fa;
 }
 
+/*
+ * NAVIGASI
+ */
 .navigasi {
   .navbar-white {
     .navbar-brand {
@@ -56,7 +59,23 @@ body {
   }
 }
 
+
+/*
+ * PRODUK
+ */
 .produk {
+  padding-top: 70px;
+  padding-bottom: 50px;
+
+  .judul {
+    font-size: 30px;
+  }
+
+  .penjelasan {
+    margin-bottom: 70px;
+    font-size: 18px;
+  }
+
   .item {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -67,11 +86,33 @@ body {
   }
 }
 
+
+/*
+ * CUSTOMER
+ */
 .customer {
   padding-top: 50px;
   padding-bottom: 50px;
+
+  .judul {
+    font-size: 30px;
+    color: #0192FC;
+  }
+
+  .penjelasan {
+    margin-bottom: 70px;
+    font-size: 18px;
+  }
+
+  .item {
+    color: #646e81;
+  }
 }
 
+
+/*
+ * FOOTER
+ */
 footer {
   background: #F0F0F4;
   color: #333;
