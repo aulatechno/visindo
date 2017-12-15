@@ -7,10 +7,9 @@ body {
 .navigasi {
   .navbar-white {
     .navbar-brand {
-      color: #0a84ff;
 
-      &:focus, &:hover {
-        color: #0a84ff;
+      img {
+        max-height: 30px;
       }
     }
 
