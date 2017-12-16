@@ -1,13 +1,33 @@
-/*
- * HOME ABOUT
- */
-.home-about {
-  margin-bottom: 50px;
+/*NAVIGASI*/
+nav .navbar .navbar-brand{
+    font-weight: 700;
 }
 
-/*
- * VISI MISI
- */
-.vimi {
-  margin-bottom: 50px;
+nav .collapse .navbar-nav .nav-link {
+    color: #5a74ee;
+    font-weight: 700;
+}
+
+nav .collapse .navbar-nav .nav-link:focus {
+    color: #000000
+}
+
+/*HOME-IMG*/
+.home-img {
+    margin-bottom: 40px;
+}
+
+/*HOME-ABOUT*/
+.home-about {
+    margin-bottom: 40px;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #503f3f;
+    color: white;
+
 }
