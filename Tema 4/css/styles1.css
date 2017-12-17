@@ -18,7 +18,7 @@ body {
 .text-about {
     position: absolute;
 	top: 50%;
-	left: 55%;
+	left: 60%;
     font-size: 25px;
     color: #f3f3f3;
     background: #0a84ff;
@@ -36,5 +36,14 @@ body {
 }
 
 .customer {
-    background: linear-gradient(to top, black, #0a84ff,black);
+    background: linear-gradient(to bottom, black, #0a84ff);
+}
+
+.customer .judul{
+    color: #d70022;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
