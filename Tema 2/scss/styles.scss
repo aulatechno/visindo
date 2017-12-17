@@ -1,7 +1,7 @@
 // compileCompressed: ../css/$1.css
 
 body {
-  //background: #f7f7fa;
+  background: #000;
 }
 
 /*
@@ -79,7 +79,7 @@ body {
  * VISI MISI
  */
 .vimi {
-  color: #fff;
+  color: #b1b1b3;
 
   .visi, .misi {
     padding-top: 20px;
@@ -108,11 +108,11 @@ body {
   }
 
   .visi {
-    background: #00BF6F;
+    //background: #00BF6F;
   }
 
   .misi {
-    background: #0a84ff;
+    //background: #0a84ff;
   }
 }
 
@@ -130,7 +130,7 @@ body {
   }
 
   .penjelasan {
-    color: #333;
+    color: #b1b1b3;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -154,7 +154,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 
-  background-color: #0A84FF;
+  background-color: #0c0c0d;
   position: relative;
 
   &::before {
@@ -174,7 +174,7 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #000;
+    color: #0a84ff;
     padding-top: 55px;
   }
 
@@ -197,7 +197,6 @@ body {
  * FOOTER
  */
 footer {
-  background: #000000;
   color: #f9f9fa;
   font-size: 16px;
   padding-top: 15px;
