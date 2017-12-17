@@ -108,11 +108,23 @@ body {
   }
 
   .visi {
-    //background: #00BF6F;
+    .flaticon-aviator {
+      color: #b58848;
+    }
+
+    h4 {
+      color: #737373;
+    }
   }
 
   .misi {
-    //background: #0a84ff;
+    .flaticon-transport {
+      color: #737373;
+    }
+
+    h4 {
+      color: #b58848;
+    }
   }
 }
 
@@ -126,7 +138,7 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #d70022;
+    color: #b58848;
   }
 
   .penjelasan {
@@ -151,8 +163,8 @@ body {
  * CUSTOMER
  */
 .customer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 
   background-color: #0c0c0d;
   position: relative;
@@ -174,7 +186,7 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #0a84ff;
+    color: #b58848;
     padding-top: 55px;
   }
 
@@ -198,7 +210,7 @@ body {
  */
 footer {
   color: #f9f9fa;
-  font-size: 16px;
+  font-size: 13px;
   padding-top: 15px;
   padding-bottom: 15px;
 
