@@ -1,0 +1,8 @@
+body {
+    background: black;
+    color: #eee;
+}
+
+.vimi {
+    background: linear-gradient(to right, #d70022, black,  #0a84ff);
+}
