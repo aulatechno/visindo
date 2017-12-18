@@ -53,4 +53,5 @@ body {
 footer {
     padding-top: 30px;
     padding-bottom: 30px;
+    background: linear-gradient(to right, #d70022, black);
 }

@@ -1,0 +1,57 @@
+body {
+    background: black;
+    color: #eee;
+}
+
+
+.full-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.opening {
+    position: absolute;
+	top: 50%;
+	left: 60%;
+    font-size: 25px;
+    color: #f3f3f3;
+    background: #0a84ff;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+/*
+ * HOME ABOUT
+ */
+ .home-about {
+    margin-top: 45px;
+    margin-bottom: 80px;
+  }
+
+.home-about .judul {
+    font-size: 2.66667rem;
+    margin-bottom: 25px;
+}
+
+.vimi {
+    background: linear-gradient(to right, #d70022, black,  #0a84ff);
+}
+
+.produk .penjelasan {
+    color: #f3f3f3
+}
+
+.customer {
+    background: linear-gradient(to bottom, black, #0a84ff);
+}
+
+.customer .judul{
+    color: #d70022;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to right, #d70022, black);
+}
