@@ -1,32 +1,29 @@
 // compileCompressed: ../css/$1.css
 
 body {
-  //background: #f7f7fa;
+  background: #f9f0eb;
 }
 
 /*
- * NAVIGASI
+ * navigasi
  */
 .navigasi {
+  background: #4e2c25;
   box-shadow: 0 1px 2px rgba(158, 158, 158, 0.4);
 
-  .navbar-white {
+  .navbar-custom {
     a.navbar-brand {
-      color: #e74c3c;
-    }
-
-    .navbar-brand {
-      img {
-        max-height: 30px;
-        max-width: 50px;
-      }
+      color: #b58848;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 0;
     }
 
     .navbar-nav {
       .nav-link {
-        color: #000;
+        color: #c7cac7;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
 
         &:focus, &:hover {
           color: #0a84ff;
@@ -46,12 +43,12 @@ body {
     }
 
     .navbar-toggler {
-      color: rgba(0, 0, 0, 0.5);
-      border-color: rgba(0, 0, 0, 0.1);
+      color: rgb(210, 180, 147);
+      border-color: rgb(210, 180, 147);
     }
 
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewbox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(210, 180, 147)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='m4 7h22m4 15h22m4 23h22'/%3e%3c/svg%3e");
     }
 
     .navbar-text {
@@ -69,21 +66,32 @@ body {
 
 
 /*
- * HOME ABOUT
+ * home about
  */
-.home-about {
-  margin-bottom: 50px;
-}
+ .about {
+   background: #f9f0eb;
+   padding-top: 200px;
+   padding-bottom: 200px;
+
+   p {
+     font-family: "zilla slab","open sans",x-localespecific,sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     color: #4e2c25;
+     padding-top: 30px;
+   }
+ }
 
 /*
- * VISI MISI
+ * visi misi
  */
 .vimi {
-  color: #fff;
+  color: #b1b1b3;
 
   .visi, .misi {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    background: #0c0c0d;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align:center;
 
     [class^="flaticon-"]:before {
@@ -108,29 +116,42 @@ body {
   }
 
   .visi {
-    background: #00BF6F;
+    .flaticon-aviator {
+      color: #b58848;
+    }
+
+    h4 {
+      color: #57abc1;
+    }
   }
 
   .misi {
-    background: #0a84ff;
+    .flaticon-transport {
+      color: #57abc1;
+    }
+
+    h4 {
+      color: #b58848;
+    }
   }
 }
 
 
 /*
- * PRODUK
+ * produk
  */
 .produk {
   padding-top: 100px;
+  padding-bottom: 100px;
 
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #d70022;
+    color: #000;
   }
 
   .penjelasan {
-    color: #333;
+    color: #4e2c25;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -148,13 +169,13 @@ body {
 
 
 /*
- * CUSTOMER
+ * customer
  */
 .customer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 
-  background-color: #0A84FF;
+  background-color: #0c0c0d;
   position: relative;
 
   &::before {
@@ -174,12 +195,12 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #000;
+    color: #a2aac2;
     padding-top: 55px;
   }
 
   .penjelasan {
-    color: #fff;
+    color: #b58848;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -194,12 +215,11 @@ body {
 
 
 /*
- * FOOTER
+ * footer
  */
 footer {
-  background: #000000;
-  color: #f9f9fa;
-  font-size: 16px;
+  color: #0c0c0d;
+  font-size: 13px;
   padding-top: 15px;
   padding-bottom: 15px;
 

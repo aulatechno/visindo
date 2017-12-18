@@ -1,16 +1,16 @@
 // compileCompressed: ../css/$1.css
 
 body {
-  background: #F9F0EB;
+  background: #f9f0eb;
 }
 
 /*
- * NAVIGASI
+ * navigasi
  */
 .navigasi {
   box-shadow: 0 1px 2px rgba(158, 158, 158, 0.4);
 
-  .navbar-white {
+  .navbar-custom {
     a.navbar-brand {
       color: #e74c3c;
     }
@@ -51,7 +51,7 @@ body {
     }
 
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewbox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='m4 7h22m4 15h22m4 23h22'/%3e%3c/svg%3e");
     }
 
     .navbar-text {
@@ -69,15 +69,15 @@ body {
 
 
 /*
- * HOME ABOUT
+ * home about
  */
 .about {
-  background: #F9F0EB;
+  background: #f9f0eb;
   padding-top: 200px;
   padding-bottom: 50px;
 
   p {
-    font-family: "Zilla Slab","Open Sans",X-LocaleSpecific,sans-serif;
+    font-family: "zilla slab","open sans",x-localespecific,sans-serif;
     font-size: 25px;
     font-weight: 700;
     padding-top: 30px;
@@ -85,7 +85,7 @@ body {
 }
 
 /*
- * VISI MISI
+ * visi misi
  */
 .vimi {
   color: #fff;
@@ -118,17 +118,17 @@ body {
   }
 
   .visi {
-    background: #B2B4DB;
+    background: #b2b4db;
   }
 
   .misi {
-    background: #89D0EF;
+    background: #89d0ef;
   }
 }
 
 
 /*
- * PRODUK
+ * produk
  */
 .produk {
   padding-top: 100px;
@@ -159,13 +159,13 @@ body {
 
 
 /*
- * CUSTOMER
+ * customer
  */
 .customer {
   padding-top: 80px;
   padding-bottom: 100px;
 
-  background-color: #BF7559;
+  background-color: #bf7559;
   position: relative;
 
   &::before {
@@ -185,12 +185,12 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #4E2C25;
+    color: #4e2c25;
     padding-top: 55px;
   }
 
   .penjelasan {
-    color: #4E2C25;
+    color: #4e2c25;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -205,7 +205,7 @@ body {
 
 
 /*
- * FOOTER
+ * footer
  */
 footer {
   background: #4e2c25;
@@ -215,7 +215,7 @@ footer {
   padding-bottom: 15px;
 
   a {
-    color: #BF7559;
+    color: #bf7559;
   }
 }
 

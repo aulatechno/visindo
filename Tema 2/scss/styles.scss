@@ -5,28 +5,25 @@ body {
 }
 
 /*
- * NAVIGASI
+ * navigasi
  */
 .navigasi {
+  background: #0c0c0d;
   box-shadow: 0 1px 2px rgba(158, 158, 158, 0.4);
 
-  .navbar-white {
+  .navbar-custom {
     a.navbar-brand {
-      color: #e74c3c;
-    }
-
-    .navbar-brand {
-      img {
-        max-height: 30px;
-        max-width: 50px;
-      }
+      color: #b58848;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 0;
     }
 
     .navbar-nav {
       .nav-link {
-        color: #000;
+        color: #c7cac7;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
 
         &:focus, &:hover {
           color: #0a84ff;
@@ -51,7 +48,7 @@ body {
     }
 
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewbox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='m4 7h22m4 15h22m4 23h22'/%3e%3c/svg%3e");
     }
 
     .navbar-text {
@@ -69,30 +66,30 @@ body {
 
 
 /*
- * HOME ABOUT
+ * home about
  */
  .about {
-   background: #F9F0EB;
+   background: #f9f0eb;
    padding-top: 200px;
    padding-bottom: 200px;
 
    p {
-     font-family: "Zilla Slab","Open Sans",X-LocaleSpecific,sans-serif;
+     font-family: "zilla slab","open sans",x-localespecific,sans-serif;
      font-size: 25px;
      font-weight: 700;
-     color: #663399;
+     color: #4e2c25;
      padding-top: 30px;
    }
  }
 
 /*
- * VISI MISI
+ * visi misi
  */
 .vimi {
   color: #b1b1b3;
 
   .visi, .misi {
-    background: #0C0C0D;
+    background: #0c0c0d;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align:center;
@@ -124,13 +121,13 @@ body {
     }
 
     h4 {
-      color: #57ABC1;
+      color: #57abc1;
     }
   }
 
   .misi {
     .flaticon-transport {
-      color: #57ABC1;
+      color: #57abc1;
     }
 
     h4 {
@@ -141,7 +138,7 @@ body {
 
 
 /*
- * PRODUK
+ * produk
  */
 .produk {
   padding-top: 100px;
@@ -150,11 +147,11 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #0A84FF;
+    color: #57abc1;
   }
 
   .penjelasan {
-    color: #B58848;
+    color: #b58848;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -172,7 +169,7 @@ body {
 
 
 /*
- * CUSTOMER
+ * customer
  */
 .customer {
   padding-top: 80px;
@@ -198,12 +195,12 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #0A84FF;
+    color: #57abc1;
     padding-top: 55px;
   }
 
   .penjelasan {
-    color: #B58848;
+    color: #b58848;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -218,7 +215,7 @@ body {
 
 
 /*
- * FOOTER
+ * footer
  */
 footer {
   color: #f9f9fa;
