@@ -7,15 +7,21 @@ body {
  * HOME ABOUT
  */
  .home-about {
-    margin-bottom: 0px;
+    margin-top: 45px;
+    margin-bottom: 80px;
   }
+
+.home-about .judul {
+    font-size: 2.66667rem;
+    margin-bottom: 25px;
+}
 
 .full-width {
     padding-left: 0;
     padding-right: 0;
 }
 
-.text-about {
+.opening {
     position: absolute;
 	top: 50%;
 	left: 60%;
