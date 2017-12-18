@@ -12,7 +12,10 @@ body {
 
   .navbar-custom {
     a.navbar-brand {
-      color: #e74c3c;
+      color: #blue;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 0;
     }
 
     .navbar-brand {
@@ -72,6 +75,7 @@ body {
  * home about
  */
 .about {
+  color: #4e2c25;
   background: #f9f0eb;
   padding-top: 200px;
   padding-bottom: 50px;
