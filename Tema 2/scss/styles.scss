@@ -71,9 +71,19 @@ body {
 /*
  * HOME ABOUT
  */
-.home-about {
-  margin-bottom: 50px;
-}
+ .about {
+   background: #F9F0EB;
+   padding-top: 200px;
+   padding-bottom: 200px;
+
+   p {
+     font-family: "Zilla Slab","Open Sans",X-LocaleSpecific,sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     color: #663399;
+     padding-top: 30px;
+   }
+ }
 
 /*
  * VISI MISI
@@ -82,8 +92,9 @@ body {
   color: #b1b1b3;
 
   .visi, .misi {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    background: #0C0C0D;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align:center;
 
     [class^="flaticon-"]:before {
@@ -113,13 +124,13 @@ body {
     }
 
     h4 {
-      color: #737373;
+      color: #57ABC1;
     }
   }
 
   .misi {
     .flaticon-transport {
-      color: #737373;
+      color: #57ABC1;
     }
 
     h4 {
@@ -134,15 +145,16 @@ body {
  */
 .produk {
   padding-top: 100px;
+  padding-bottom: 100px;
 
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #b58848;
+    color: #0A84FF;
   }
 
   .penjelasan {
-    color: #b1b1b3;
+    color: #B58848;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -186,12 +198,12 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #b58848;
+    color: #0A84FF;
     padding-top: 55px;
   }
 
   .penjelasan {
-    color: #fff;
+    color: #B58848;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;

@@ -1,7 +1,7 @@
 // compileCompressed: ../css/$1.css
 
 body {
-  //background: #f7f7fa;
+  background: #F9F0EB;
 }
 
 /*
@@ -24,7 +24,7 @@ body {
 
     .navbar-nav {
       .nav-link {
-        color: #000;
+        color: #3EABDB;
         font-size: 18px;
         font-weight: bold;
 
@@ -71,8 +71,17 @@ body {
 /*
  * HOME ABOUT
  */
-.home-about {
-  margin-bottom: 50px;
+.about {
+  background: #F9F0EB;
+  padding-top: 200px;
+  padding-bottom: 50px;
+
+  p {
+    font-family: "Zilla Slab","Open Sans",X-LocaleSpecific,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 30px;
+  }
 }
 
 /*
@@ -82,7 +91,8 @@ body {
   color: #fff;
 
   .visi, .misi {
-    padding-top: 20px;
+    color: #663399;
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align:center;
 
@@ -108,11 +118,11 @@ body {
   }
 
   .visi {
-    background: #00BF6F;
+    background: #B2B4DB;
   }
 
   .misi {
-    background: #0a84ff;
+    background: #89D0EF;
   }
 }
 
@@ -122,11 +132,12 @@ body {
  */
 .produk {
   padding-top: 100px;
+  padding-bottom: 100px;
 
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #d70022;
+    color: #639;
   }
 
   .penjelasan {
@@ -151,10 +162,10 @@ body {
  * CUSTOMER
  */
 .customer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 
-  background-color: #0A84FF;
+  background-color: #6B5A4F;
   position: relative;
 
   &::before {
@@ -188,7 +199,7 @@ body {
   .item {
     color: #fff;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
@@ -197,7 +208,7 @@ body {
  * FOOTER
  */
 footer {
-  background: #000000;
+  background: #0c0c0d;
   color: #f9f9fa;
   font-size: 16px;
   padding-top: 15px;
