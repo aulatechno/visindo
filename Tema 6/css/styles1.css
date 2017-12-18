@@ -1,6 +1,6 @@
 body {
-    background: black;
-    color: #eee;
+    background: #ebebeb;
+    color: #454545;
 }
 
 
@@ -12,10 +12,10 @@ body {
 .opening {
     position: absolute;
 	top: 50%;
-	left: 60%;
-    font-size: 25px;
+	left: 65%;
+    font-size: 40px;
     color: #f3f3f3;
-    background: #0a84ff;
+    background: #454545;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     opacity: 1;
@@ -38,20 +38,25 @@ body {
     background: linear-gradient(to right, #d70022, black,  #0a84ff);
 }
 
-.produk .penjelasan {
-    color: #f3f3f3
-}
-
 .customer {
-    background: linear-gradient(to bottom, black, #0a84ff);
+    background: linear-gradient(to bottom, #ebebeb, #0a84ff);
 }
 
 .customer .judul{
     color: #d70022;
 }
 
+.customer .penjelasan {
+    color: #454545;
+}
+
+.customer .item {
+    color: #454545;
+    font-weight: 500;
+}
+
 footer {
     padding-top: 30px;
     padding-bottom: 30px;
-    background: linear-gradient(to right, #d70022, black);
+    background: #d70022;
 }
