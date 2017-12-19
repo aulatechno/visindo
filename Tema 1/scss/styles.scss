@@ -25,7 +25,7 @@ body {
     .navbar-nav {
       .nav-link {
         color: #18557d;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
 
         &:focus, &:hover {
@@ -210,6 +210,11 @@ footer {
       color: #c0392b;
       text-decoration: none;
     }
+  }
+
+  .logo {
+    font-size: 16px;
+    font-weight: 700;
   }
 }
 
