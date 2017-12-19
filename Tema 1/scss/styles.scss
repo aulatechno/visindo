@@ -1,7 +1,7 @@
 // compileCompressed: ../css/$1.css
 
 body {
-  background: #fff;
+  background: #18557d;
 }
 
 /*
@@ -12,27 +12,24 @@ body {
 
   .navbar-custom {
     a.navbar-brand {
-      color: #blue;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 0;
+      color: #c0392b;
+      font-size: 28px;
     }
 
     .navbar-brand {
       img {
-        max-height: 30px;
-        max-width: 50px;
+        max-height: 40px;
       }
     }
 
     .navbar-nav {
       .nav-link {
-        color: #663399;
+        color: #18557d;
         font-size: 18px;
         font-weight: bold;
 
         &:focus, &:hover {
-          color: #0a84ff;
+          color: #c0392b;
         }
 
         &.disabled {
@@ -54,7 +51,7 @@ body {
     }
 
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewbox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='m4 7h22m4 15h22m4 23h22'/%3e%3c/svg%3e");
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
 
     .navbar-text {
@@ -74,19 +71,19 @@ body {
 /*
  * home about
  */
-.about {
-  color: #4e2c25;
-  background: #f9f0eb;
-  padding-top: 200px;
-  padding-bottom: 50px;
+ .about {
+   background: #18557d;
+   padding-top: 200px;
+   padding-bottom: 200px;
 
-  p {
-    font-family: "zilla slab","open sans",x-localespecific,sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    padding-top: 30px;
-  }
-}
+   p {
+     font-family: "zilla slab","open sans",x-localespecific,sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     color: #fff;
+     padding-top: 30px;
+   }
+ }
 
 /*
  * visi misi
@@ -95,12 +92,13 @@ body {
   color: #fff;
 
   .visi, .misi {
-    color: #663399;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background: #c0392b;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align:center;
 
     [class^="flaticon-"]:before {
+      color: #18557d;
       font-size: 130px;
       margin-left: 0;
       line-height: 170px;
@@ -120,14 +118,6 @@ body {
       line-height: 25px;
     }
   }
-
-  .visi {
-    background: #b2b4db;
-  }
-
-  .misi {
-    background: #bedaf7;
-  }
 }
 
 
@@ -135,17 +125,16 @@ body {
  * produk
  */
 .produk {
+  color: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
 
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #639;
   }
 
   .penjelasan {
-    color: #333;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
@@ -168,8 +157,8 @@ body {
 .customer {
   padding-top: 80px;
   padding-bottom: 100px;
-
-  background-color: #f5f3f4;
+  background: #18557d;
+  color: #fff;
   position: relative;
 
   &::before {
@@ -189,21 +178,18 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    color: #4e2c25;
     padding-top: 55px;
   }
 
   .penjelasan {
-    color: #4e2c25;
     margin-bottom: 70px;
     font-size: 25px;
     font-weight: 300;
   }
 
   .item {
-    color: #47525d;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
   }
 }
 
@@ -212,14 +198,18 @@ body {
  * footer
  */
 footer {
-  background: #4e2c25;
   color: #f9f9fa;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 15px;
   padding-bottom: 15px;
 
   a {
-    color: #bf7559;
+    color: #fff;
+
+    &:hover, &:focus {
+      color: #c0392b;
+      text-decoration: none;
+    }
   }
 }
 
