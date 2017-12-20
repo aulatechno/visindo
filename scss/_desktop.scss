@@ -1,6 +1,4 @@
-body {
-  background: #18557d;
-}
+@media (min-width: 768px) {
 
 /*
  * navigasi
@@ -10,7 +8,6 @@ body {
 
   .navbar-custom {
     a.navbar-brand {
-      color: #c0392b;
       font-size: 28px;
     }
 
@@ -70,15 +67,18 @@ body {
  * home about
  */
  .about {
-   background: #18557d;
    padding-top: 200px;
    padding-bottom: 200px;
 
+   .kiri {
+    img {
+      max-height: 268px;
+      max-width: 364px;
+    }
+  }
+
    p {
-     font-family: "zilla slab","open sans",x-localespecific,sans-serif;
      font-size: 25px;
-     font-weight: 700;
-     color: #fff;
      padding-top: 30px;
    }
  }
@@ -90,10 +90,8 @@ body {
   color: #fff;
 
   .visi, .misi {
-    background: #c0392b;
     padding-top: 100px;
     padding-bottom: 100px;
-    text-align:center;
 
     [class^="flaticon-"]:before {
       color: #18557d;
@@ -177,12 +175,7 @@ body {
     font-size: 2.66667rem;
     font-weight: bold;
     padding-top: 55px;
-  }
-
-  .penjelasan {
-    margin-bottom: 70px;
-    font-size: 25px;
-    font-weight: 300;
+    margin-bottom: 80px;
   }
 
   .item {
@@ -214,4 +207,10 @@ footer {
     font-size: 16px;
     font-weight: 700;
   }
+
+  .madewithlove {
+    margin-top: 50px;
+  }
+}
+
 }
