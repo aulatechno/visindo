@@ -1,5 +1,9 @@
 @media (max-width: 576px) {
 
+.customer {
+  padding-bottom: 50px
+}
+
 .customer .judul {
   padding-top: 40px;
   padding-bottom: 20px;
@@ -11,7 +15,6 @@
 }
 
 footer .logo {
-  -ms-flex-order: -1;
   order: -1;
 }
 
@@ -21,6 +24,10 @@ footer .alamat {
 
 footer .kontak {
   text-align: center !important;
+}
+
+footer .madewithlove {
+  margin-top:25px
 }
 
 }
