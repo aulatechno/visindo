@@ -148,7 +148,7 @@ body {
   }
 
   .penjelasan {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-size: 25px;
     font-weight: 300;
   }
@@ -169,7 +169,7 @@ body {
  */
 .customer {
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background: #18557d;
   color: #fff;
   position: relative;
@@ -191,11 +191,13 @@ body {
   .judul {
     font-size: 2.66667rem;
     font-weight: bold;
-    padding-top: 55px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .item {
-    font-size: 20px;
+    text-align: center;
+    font-size: 17px;
     font-weight: 300;
   }
 }
@@ -220,8 +222,21 @@ footer {
   }
 
   .logo {
+    order: -1;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  .alamat {
+    text-align: center !important;
+  }
+
+  .kontak {
+    text-align: center !important;
+  }
+
+  .madewithlove {
+    margin-top:25px;
   }
 }
 

@@ -181,6 +181,7 @@
   .item {
     font-size: 20px;
     font-weight: 300;
+    text-align: left;
   }
 }
 
@@ -204,8 +205,17 @@ footer {
   }
 
   .logo {
+    order: 0;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  .alamat {
+    text-align: left !important;
+  }
+
+  .kontak {
+    text-align: right !important;
   }
 
   .madewithlove {
