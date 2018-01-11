@@ -1,0 +1,173 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+
+    <title>
+    {% if (page.parent.title == 'Pages') or (page.parent.title is empty) %}
+    {{ header.title }} |
+    {% else %}
+    {{ page.parent.title }} - {{ header.title }} |
+    {% endif %}
+    {{ site.title }}
+    </title>
+
+    {% include 'partials/metadata.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://node_modules/bootstrap/dist/css/bootstrap.css', 103) %}
+        {% do assets.addCss('theme://node_modules/font-awesome/css/font-awesome.min.css', 102) %}
+        {% do assets.addCss('theme://assets/flaticon/flaticon.css', 102) %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Zilla+Slab:400,700', 102) %}
+        {% do assets.addCss('theme://css/styles.css') %}
+    {% endblock %}
+    {{ assets.css() }}
+{% endblock head %}
+</head>
+
+
+<body id="top" class="{{ page.header.body_classes }}">
+  <div class="navigasi container-fluid bg-white">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">
+        <img class="" src="{{ url('user://media/logo.png') }}">
+        {{ config.site.title }}
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end mr-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav text-right">
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#customer">Customer</a>
+              </li>
+            </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container-fluid about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 kiri">
+        <img src="{{ url('user://media/003-packing.svg') }}" alt="">
+      </div>
+      <div class="col-12 col-md-6 kanan">
+        <p>PT. Visindo Guna Mandiri adalah suatu perusahaan yang bergerak di bidang jasa pengepakan barang / packaging dengan carton box, impraboard, paper pallet dan pallet kayu.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid vimi">
+    <div class="row">
+      <div class="col-12 col-md-6 visi">
+        <i class="flaticon-aviator"></i>
+        <h4>VISI</h4>
+        <p>Menjadikan perusahaan yang selalu mengedepankan kualitas pelayanan baik produk ataupun jasa dan menjadi perusahaan yang dipercayai oleh pelanggannya.</p>
+      </div>
+      <div class="col-12 col-md-6 misi">
+        <i class="flaticon-transport"></i>
+        <h4>MISI</h4>
+        <p>Memberikan pelayanan terbaik yang bersifat customer statisfaction dan memperhatikan pada safety, quality, cost, delivery serta social.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container produk" id="produk">
+    <div class="judul text-center">Product</div>
+    <div class="penjelasan text-center">Ini merupakan contoh produk yang Kami hasilkan</div>
+    <div class="row">
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0003.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0004.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0005.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0006.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0007.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0008.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0009.jpg') }}">
+      </div>
+      <div class="col-6 col-md-3 item">
+        <img class="w-100" src="{{ url('user://media/IMG-20171208-WA0010.jpg') }}">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid customer" id="customer">
+    <div class="container">
+      <div class="judul text-center">Who's using our products?</div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 item">PT. Fuji Seat Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Alloy Mas Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Pong Codan Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Nittsu Shoji Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Tri Cipta Teknindo</div>
+        <div class="col-12 col-md-6 item">PT. Sanko Gonsei</div>
+        <div class="col-12 col-md-6 item">PT. Jaeil Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Kartika Naya</div>
+        <div class="col-12 col-md-6 item">PT. Hanwa Steel Service Indonesia</div>
+        <div class="col-12 col-md-6 item">PT. Multi Pratama Interbuana Indonesia</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 alamat">
+          Jl. Raya Setu, Kamp. Rawa Banteng No.62 RT. 24/11<br>
+          Kel. Cibuntu, Kec. Cibitung<br>
+          Kota Bekasi<br>
+
+
+        </div>
+        <div class="col-12 col-md-4 text-center logo">
+          PT. Visindo Guna Mandiri<br>
+
+        </div>
+        <div class="col-12 col-md-4 kontak">
+          Telp : (021) 29091407<br>
+          Fax : (021) 29091407<br>
+          pt_visindogunamandiri@yahoo.com
+        </div>
+      </div>
+      <div class="row madewithlove">
+        <div class="col text-center">
+          Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://github.com/aulatechno">AulaTechno</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  {% block javascripts %}
+      {% do assets.addJs('jquery', 101) %}
+      {% do assets.addJs('theme://node_modules/bootstrap/dist/js/bootstrap.min.js', 100) %}
+  {% endblock %}
+  {{ assets.js() }}
+</body>
+</html>

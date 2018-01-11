@@ -1,0 +1,243 @@
+// compileNested: ../css/$1.css
+
+body {
+  background: #18557d;
+}
+
+/*
+ * navigasi
+ */
+.navigasi {
+  box-shadow: 0 1px 2px rgba(158, 158, 158, 0.4);
+
+  .navbar {
+    padding: 0;
+
+    &-custom {
+      a.navbar-brand {
+        color: #c0392b;
+        font-size: 20px;
+      }
+
+      .navbar-brand {
+        img {
+          max-height: 30px;
+        }
+      }
+
+      .navbar-nav {
+        .nav-link {
+          color: #18557d;
+          font-size: 20px;
+          font-weight: bold;
+
+          &:focus, &:hover {
+            color: #c0392b;
+          }
+
+          &.disabled {
+            color: rgba(0, 0, 0, 0.3);
+          }
+        }
+
+        .show > .nav-link,
+        .active > .nav-link,
+        .nav-link.show,
+        .nav-link.active {
+          color: rgba(0, 0, 0, 0.9);
+        }
+      }
+
+      .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+
+        &-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+      }
+
+      .navbar-text {
+        color: rgba(0, 0, 0, 0.5);
+        a {
+          color: rgba(0, 0, 0, 0.9);
+
+          &:focus, &:hover {
+            color: #0a84ff;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*
+ * home about
+ */
+ .about {
+   background: #18557d;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+   .kiri {
+     text-align: center;
+
+    img {
+      max-height: 150px;
+      max-width: 150px;
+    }
+  }
+
+   p {
+     font-family: "zilla slab","open sans",x-localespecific,sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     color: #fff;
+     padding-top: 30px;
+   }
+ }
+
+/*
+ * visi misi
+ */
+.vimi {
+  color: #fff;
+
+  .visi, .misi {
+    background: #c0392b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+
+    [class^="flaticon-"]:before {
+      color: #18557d;
+      font-size: 100px;
+      margin-left: 0;
+      line-height: 170px;
+    }
+
+    h4 {
+      font-size: 1.875rem;
+      font-weight: bold;
+      line-height: 2.25rem;
+    }
+
+    p{
+      font-size: 17px;
+      font-weight: 300;
+      width: 58%;
+      margin: 0 auto;
+      line-height: 25px;
+    }
+  }
+}
+
+
+/*
+ * produk
+ */
+.produk {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .judul {
+    font-size: 2.66667rem;
+    font-weight: bold;
+  }
+
+  .penjelasan {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    img {
+      box-shadow: 2px 3px 8px 0 rgba(0,0,0,.2);
+    }
+  }
+}
+
+
+/*
+ * customer
+ */
+.customer {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: #18557d;
+  color: #fff;
+  position: relative;
+
+  &::before {
+    background: transparent url("../media/wave.09fee20ffc01.svg") top center no-repeat;
+    background-size: auto auto;
+    -webkit-background-size: 3000px 151px;
+    background-size: 3000px 151px;
+    content: '';
+    display: block;
+    height: 151px;
+    left: 0;
+    position: absolute;
+    top: -5px;
+    width: 100%;
+  }
+
+  .judul {
+    font-size: 2.66667rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .item {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+  }
+}
+
+
+/*
+ * footer
+ */
+footer {
+  color: #f9f9fa;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  a {
+    color: #fff;
+
+    &:hover, &:focus {
+      color: #c0392b;
+      text-decoration: none;
+    }
+  }
+
+  .logo {
+    order: -1;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .alamat {
+    text-align: center !important;
+  }
+
+  .kontak {
+    text-align: center !important;
+  }
+
+  .madewithlove {
+    margin-top:25px;
+  }
+}
+
+@import "desktop";

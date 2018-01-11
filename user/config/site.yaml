@@ -1,0 +1,17 @@
+title: 'PT. Visindo Guna Mandiri'
+default_lang: en
+author:
+  name: admin
+  email: joe@test.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  Visindo: 'Perusahaan yang bergerak di bidang jasa pengepakan barang / packaging dengan carton box, impraboard, paper pallet dan pallet kayu.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
