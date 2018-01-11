@@ -1,0 +1,9 @@
+backup/*
+!backup/.*
+cache/*
+!cache/.*
+assets/*
+!assets/.*
+logs/*
+!logs/.*
+user/config/security.yaml
